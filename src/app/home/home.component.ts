@@ -13,9 +13,15 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onGetStarted()
-  {
-    this.router.navigateByUrl('getstarted')
+  onclickreadmore(){
+    this.router.navigateByUrl('aboutus')
   }
+
+  onclickMore(){
+    this.router.navigateByUrl('clubs')
+  }
+
+
+
 
 }

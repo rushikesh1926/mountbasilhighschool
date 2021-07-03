@@ -57,16 +57,17 @@ const routes: Routes = [
   {path:'infrastructure' ,component:InfraStructureComponent},
   {path:'', redirectTo:'/home',pathMatch:'full'},
   {path:'**',component:PagenotfoundComponent}
-  
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes),RouterModule.forRoot(routes, {
-    scrollPositionRestoration: 'enabled', // Add options right here
-  })
-],
+  // imports: [RouterModule.forRoot(routes),RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  
   exports: [RouterModule]
+
+
 })
 export class AppRoutingModule {
+  
 
 }
