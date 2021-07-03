@@ -10,6 +10,7 @@ import { DEOCertificateComponent } from './deo-certificate/deo-certificate.compo
 import { DocsandinfoComponent } from './docsandinfo/docsandinfo.component';
 import { FeeStructureComponent } from './fee-structure/fee-structure.component';
 import { FireSafetyComponent } from './fire-safety/fire-safety.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { GenralInfoComponent } from './genral-info/genral-info.component';
 import { GetStartedComponent } from './get-started/get-started.component';
 import { HomeComponent } from './home/home.component';
@@ -52,6 +53,7 @@ const routes: Routes = [
   {path:'fireSafety',component:FireSafetyComponent},
   {path:'deoCertificate',component:DEOCertificateComponent},
   {path:'WaterAndSanition',component:WaterSanitationComponent},
+  {path:'gallery',component:GalleryComponent},
   {path:'infrastructure' ,component:InfraStructureComponent},
   {path:'', redirectTo:'/home',pathMatch:'full'},
   {path:'**',component:PagenotfoundComponent}

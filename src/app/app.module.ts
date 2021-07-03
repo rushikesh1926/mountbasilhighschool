@@ -30,6 +30,7 @@ import { SafetyCertificateComponent } from './safety-certificate/safety-certific
 import { FireSafetyComponent } from './fire-safety/fire-safety.component';
 import { DEOCertificateComponent } from './deo-certificate/deo-certificate.component';
 import { WaterSanitationComponent } from './water-sanitation/water-sanitation.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { WaterSanitationComponent } from './water-sanitation/water-sanitation.co
     SafetyCertificateComponent,
     FireSafetyComponent,
     DEOCertificateComponent,
-    WaterSanitationComponent
+    WaterSanitationComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
