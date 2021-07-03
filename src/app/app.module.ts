@@ -14,6 +14,22 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { RulesComponent } from './rules/rules.component';
 import { InfraStructureComponent } from './infra-structure/infra-structure.component';
+import { GenralInfoComponent } from './genral-info/genral-info.component';
+import { DocsandinfoComponent } from './docsandinfo/docsandinfo.component';
+import { ResultsComponent } from './results/results.component';
+import { StaffAndInfraComponent } from './staff-and-infra/staff-and-infra.component';
+import { FeeStructureComponent } from './fee-structure/fee-structure.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { SMCComponent } from './smc/smc.component';
+import { AcademicResultComponent } from './academic-result/academic-result.component';
+import { MainUpgradeComponent } from './main-upgrade/main-upgrade.component';
+import { NocCertificateComponent } from './noc-certificate/noc-certificate.component';
+import { RenewalCertificateComponent } from './renewal-certificate/renewal-certificate.component';
+import { RecoginitionCertificateComponent } from './recoginition-certificate/recoginition-certificate.component';
+import { SafetyCertificateComponent } from './safety-certificate/safety-certificate.component';
+import { FireSafetyComponent } from './fire-safety/fire-safety.component';
+import { DEOCertificateComponent } from './deo-certificate/deo-certificate.component';
+import { WaterSanitationComponent } from './water-sanitation/water-sanitation.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +44,23 @@ import { InfraStructureComponent } from './infra-structure/infra-structure.compo
     ContactUsComponent,
     ClubsComponent,
     RulesComponent,
-    InfraStructureComponent
+    InfraStructureComponent,
+    GenralInfoComponent,
+    DocsandinfoComponent,
+    ResultsComponent,
+    StaffAndInfraComponent,
+    FeeStructureComponent,
+    CalendarComponent,
+    SMCComponent,
+    AcademicResultComponent,
+    MainUpgradeComponent,
+    NocCertificateComponent,
+    RenewalCertificateComponent,
+    RecoginitionCertificateComponent,
+    SafetyCertificateComponent,
+    FireSafetyComponent,
+    DEOCertificateComponent,
+    WaterSanitationComponent
   ],
   imports: [
     BrowserModule,

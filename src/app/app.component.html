@@ -1,5 +1,5 @@
 <div >
-<nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid me-auto">
+<nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid me-auto ">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,6 +10,19 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="home" routerLinkActive="active"><strong> Home </strong></a>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong> Mandatory Public disclosure </strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" routerLink="generalInfo" routerLinkActive="active" >General Information</a></li>
+            <li><a class="dropdown-item" routerLink="docsAndInfo" routerLinkActive="active" >Documents and Information</a></li>
+            <li><a class="dropdown-item" routerLink="ResultsAndAcademics" routerLinkActive="active">Results and Academics</a></li>
+            <li><a class="dropdown-item" routerLink="StaffAndInfra" routerLinkActive="active">Staff and infrastructure</a></li>
+          </ul>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link" routerLink="aboutus" routerLinkActive="active"><strong> About us </strong></a>
         </li>
@@ -35,9 +48,9 @@
           <a class="nav-link" routerLink="contactUs" routerLinkActive="active" ><strong> Contact Us </strong></a>
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" routerLink="login" routerLinkActive="active" ><strong> login </strong></a>
-        </li>
+        </li> -->
 
           
 
